@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agregar Leyenda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-title">LEYENDAS MEXICANAS</div>
+        <div class="navbar-buttons">
+            <button onclick="window.location.href='index.html'">Volver</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="background-color: #444;">
+            <h2>Agregar Leyenda</h2>
+            <form>
+                <label for="titulo">Título:</label><br>
+                <input type="text" id="titulo" name="titulo" style="width:100%; padding:6px;"><br><br>
+                <label for="contenido">Contenido:</label><br>
+                <textarea id="contenido" name="contenido" rows="5" style="width:100%; padding:6px;"></textarea><br><br>
+                <button type="submit" disabled>Agregar (no funcional aún)</button>
+            </form>
+            <p style="font-size: 0.9em; margin-top: 10px; color: #ccc;">
+                * Esta función se activará cuando se integre la base de datos.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
